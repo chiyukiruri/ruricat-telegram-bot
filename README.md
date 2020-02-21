@@ -1,6 +1,6 @@
 # ruricat-telegram-bot
 A Telegram Bot on the telegraf  
-基于 telegraf.js 的一个 telegram Bot  
+基于 [telegraf.js](https://github.com/telegraf/telegraf) 的一个 telegram Bot  
 还在开发中也没上线
 
 ### 目前有的特性
