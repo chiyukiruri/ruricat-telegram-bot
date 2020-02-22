@@ -108,3 +108,4 @@ dist
 config.js
 test.js
 .DS_Store
+*.code-workspace
