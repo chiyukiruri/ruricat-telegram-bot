@@ -8,12 +8,12 @@ const BotConfig = require("./config")
 const Log = require('./Log')
 const Permission = require('./permission')
 
-const agent = new SocektProxy(BotConfig.proxy)
+const agent = new SocektProxy(BotConfig.proxy.url)
 let mods //模块加载
 let bot
 const coms = [] //模块配置
 
-if (BotConfig.proxy) {
+if (BotConfig.proxy.enable) {
     bot = new Telegraf(BotConfig.bot.token, { telegram: { agent: agent } })
     Log.info('Proxy is enable')
 } else {
