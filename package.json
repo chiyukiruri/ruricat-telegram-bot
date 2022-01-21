@@ -2,7 +2,7 @@
   "dependencies": {
     "crypto": "^1.0.1",
     "linq": "^3.2.1",
-    "log4js": "^6.1.1",
+    "log4js": "^6.4.0",
     "socks-proxy-agent": "^4.0.2",
     "telegraf": "^3.36.0",
     "wikijs": "^6.0.1"
